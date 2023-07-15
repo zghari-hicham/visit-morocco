@@ -1,0 +1,462 @@
+// variable 
+@import "variable";
+
+
+
+
+
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,300;0,400;1,400&display=swap');
+
+html{
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+
+nav  a img{
+    background-color: $whitecolor;
+    border-radius: 50%;
+}
+nav  .nav-link{
+    color: $whitecolor;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+nav .nav-item .active{
+    color: $whitecolor;
+}
+nav .login{
+    padding: 5px;
+    margin: 5px;
+
+}
+nav .login a i{
+    color: white;
+    font-size: 20pt;
+
+}
+
+header{
+    height: 60vh;
+    width: 100%; 
+    text-align: center;
+    padding: 50px;
+    background-image: url("../assest/images/jameefna.jpeg");
+    background-position: center;
+    background-size: cover;
+
+    
+}
+header h1{
+    text-transform: capitalize;
+    color: $mainColor;
+}
+header form{
+    width: 400px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+// search booox design 
+
+  
+  .search-section .search-box{
+    border: 1px solid $mainColor;
+    
+    width: 100%;
+    outline: none;
+    padding: 10px;
+    border-radius: 20px;
+    color: gray;
+  }
+  .search-section .search-box:focus{
+    border: 2px solid  green;
+  }
+ 
+  .search-section i{
+    font-size: 24pt;
+    color: #e60023;
+    border-radius: 50%;
+    padding: 5px;
+    cursor: pointer;
+    margin: 3px;
+    transition: .4s linear all;
+
+  }
+  .search-section i:hover{
+    background-color: white;
+  }
+  
+  
+  
+
+
+
+header p{
+    width: 50%;
+    margin: auto;
+    padding: 5px;
+    color: $whitecolor;
+}
+
+header button{
+    width: 150px;
+    height: 35px;
+    padding: 5px;
+    color: $whitecolor;
+    font-weight: bold;
+    border-radius: 20px;
+    border: none;
+    background-color: #e60023;
+    border: 2px solid $mainColor;
+    text-transform: uppercase;
+    margin: 5px;
+    transition: .4s linear all;
+}
+
+header button:hover{
+    background-color: transparent;
+  
+}
+
+main .info-about-web  .info-card{
+
+    padding: 2px;
+    text-align: center;
+    // border-left:4px  solid red ;
+   
+    background-color: $lightcolor;
+    top: -20px;
+    position: relative;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+main .info-about-web  .info-card h4{
+    text-transform: capitalize;
+    margin: 5px;
+}
+main .info-about-web  .info-card img{
+    width: 100%;
+    height: 200px;
+    // border-bottom: 2px solid $mainColor;
+}
+
+main .info-about-web  .info-card button{
+    width: 150px;
+    height: 35px;
+    border: 2px solid $mainColor;
+    font-weight: bold;
+    background-color: transparent;
+    border-radius: 20px;
+    text-transform: capitalize;
+    margin: 5px;
+    transition: .4s linear all;
+}
+
+.info-about-web  .info-card button:hover{
+    cursor: pointer;
+    background-color: $mainColor;
+    color: $whitecolor;
+}
+
+
+main .blogs .title{
+    margin: 20px;
+    text-align: center;
+}
+main .blogs .title h2{
+    text-transform: uppercase;
+    font-weight: bolder;
+    color: $mainColor;
+    text-align: center;
+   
+}
+
+main .blogs .blog{
+    padding: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+main .blogs .blog h3{
+width: fit-content;
+margin: auto;
+    text-align: center;
+    text-transform: capitalize;
+    margin-top: 5px;
+    border-bottom: #e60023 2px solid;
+}
+main .blogs .blog img{
+width: 100%;
+height: auto;
+margin: auto;
+}
+
+main .blogs .blog p{
+    padding: 10px;
+}
+
+
+
+
+
+
+//*********** login page design*******************
+//****************************
+.login-page{
+    background-color: $lightcolor;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.login-section{
+    width: 60%;
+    margin-top: 500px;
+    height: 80vh;
+    margin: auto;
+    display: flex;
+    background-color: $whitecolor;
+    align-items: center;
+    margin-top: 100px;
+   box-shadow: 0px 2px 3px grey;
+   border-radius: 20px;
+}
+.loginwelcome{
+    width: 50%;
+    height: 100%;
+    background-image: url("../assest/images/loginbg.jpg");
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    
+  text-align: center;
+  
+}
+
+.loginwelcome .welcome{
+    width: 100%;
+    height: 100%;
+    background-color: #e60023;
+    opacity: .9;
+    
+    margin: auto;
+}
+
+.loginwelcome .welcome img{
+    width: 70px;
+    height: 70px;
+    margin-top: 20px;
+    border-radius: 50%;
+    background-color: $whitecolor;
+    
+}
+
+.loginwelcome .welcome h1{
+    text-transform: capitalize;
+    color: $whitecolor;
+}
+
+.loginwelcome .welcome P{
+    text-transform: capitalize;
+    color: $whitecolor;
+    padding: 5px;
+}
+
+.loginwelcome .welcome .btns button{
+    width: 100px;
+    height: 35px;
+    border-radius: 20px;
+    // border:yellow 2px solid;
+    outline: none;
+    border: $mainColor 2px solid;
+    background-color: $whitecolor;
+    cursor: pointer;
+    color: $mainColor;
+    text-transform: capitalize;
+transition: .4s linear all;
+font-weight: bolder;
+}
+.loginwelcome .welcome .btns button:hover{
+    transform: scale(1.1);
+    background-color: $mainColor;
+    color: $whitecolor;
+    border: $whitecolor 2px solid ;
+}
+.login-section form{
+    width: 50%;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 20px;
+
+}
+
+.login-section form h2{
+    text-transform: capitalize;
+font-weight: bolder;
+}
+.login-section form input{
+    width: 300px;
+    height: 25px;
+    padding: 5px;
+    margin: auto;
+    margin-top: 1px;
+    border: $mainColor solid  1px ;
+    border-radius: 10px;
+outline: none;
+}
+.login-section form input:focus{
+ border: green 2px solid;
+
+}
+
+.login-section form input::placeholder{
+    text-transform: capitalize;
+}
+.login-section form button{
+    width: 100px;
+    height: 34px;
+    margin: auto;
+    
+    border-radius: 4px;
+    font-size: 18px;
+    font-weight:400;
+    color: $whitecolor;
+    text-transform: capitalize;
+    background-color: $mainColor;
+    transition: .4s linear all;
+    border: 2px solid $mainColor;
+}
+.login-section form button:hover{
+    cursor: pointer;
+background-color: transparent;
+color: $mainColor;
+}
+.login-section form span{
+    text-transform: capitalize;
+}
+.login-section form i{
+    font-size: 22pt;
+    margin: 5px;
+    cursor: pointer;
+
+}
+.login-section form .fa-facebook{
+    color: blue;
+}
+.login-section form .fa-google{
+    color:#dd4b39;
+}
+
+//******************** add blog page style***************************************
+// *************************************
+
+ 
+.container .addblog form{
+  
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: auto;
+    margin-top:10px;
+}
+.container .addblog form h2{
+    width: fit-content;
+    border-bottom: $mainColor 2px solid;
+    margin: 5px auto ;
+    padding: 5px;
+    text-transform: capitalize;
+    
+}
+.container .addblog form input{
+width: 400px;
+height: 40px;
+margin: 5px;
+// text-transform: capitalize;
+padding: 5px;
+// border-radius:  8px ;
+border: 1px gray solid;
+outline: none;
+}
+
+.container .addblog form input:focus{
+    box-shadow:  0 0 3pt rgb(22, 174, 14);
+    border: 2px solid #5885ef;
+}
+.container .addblog form textarea {
+    
+    outline: #5885ef;
+    margin: 5px;
+    // border-radius: 8px;
+}
+.container .addblog form textarea::placeholder{
+    text-transform: capitalize;
+}
+
+
+.container .addblog form input::placeholder{
+    text-transform: capitalize;
+
+}
+.container .addblog form textarea:focus{
+    box-shadow:  0 0 3pt rgba(6,77,2);
+    border: 2px solid #5885ef;
+}
+#uploadimg{
+    opacity: 0;
+    position: relative;
+    cursor: pointer;
+}
+.uploadesection{
+    position: relative;
+    width: 150px;
+    // border: #5885ef 1px solid;
+    margin-top: 10px;
+}
+.uploadesection span{
+    z-index: -99;
+    top: 5px;
+    border-radius: 20px;
+    // border: dashed 1px  white;
+    text-align: center;
+    padding-top: 2px;
+    text-transform: capitalize;
+   cursor: pointer;
+ width: 150px;
+ height: 35px;
+ color: #1c80dc;
+//  background-color: #1c80dc;
+ position: absolute;
+
+
+}
+
+
+.container form button{
+    width: 150px;
+    background-color: $mainColor;
+    color: $whitecolor;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+   margin: auto;
+    padding: 5px;
+    border: 2px solid $mainColor;
+
+}
+.container form button:hover{
+    background-color: transparent;
+    color: $mainColor;
+}
+
+
+
+
